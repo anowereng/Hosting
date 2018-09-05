@@ -1,0 +1,18 @@
+
+ 1 ) It was the HTTP Activation that did it in my case.
+.net framework 4.6 => 1 ) Asp.net 4.6 2 ) WCF Service => HHTP Activation , TCP Port Sharing
+
+
+2 ) Just check the Internet Information Services and its related features.
+
+Under Internet Information Services check the following folders:
+
+FTP Server
+Web Management Tools
+World wide web services
+Application development features
+Common HTTP Feature
+Health and Diagnostics
+Perfomance Feature
+Security
+Then click OK to complete the installation of new features.
